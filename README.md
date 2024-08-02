@@ -4,7 +4,7 @@ This project includes analyzing and modeling data from "The International Bank f
 
 **IBRD**: It stands for "International Bank for Reconstruction and Development" and is a financial institute that along with the "International Development Association(IDA)" makes up the World Bank. Set up in 1944, IBRD aims to help developing countries reduce poverty and build shared prosperity. IBRD loans are made to, or guaranteed by, countries that are members of IBRD. IBRD may also make loans to "International Finance Corporation(IFC)". IBRD lends at market rates. The World Bank complies with all sanctions applicable to World Bank transactions.
 
-**Dataset**: The dataset contains 1.3M rows of data with 33 columns providing various information about the country, region, the loan amount, the loan status, and the dates at which the loan was sanctioned, approved, repaid, etc. More information on each column can be found on the jupyter notebook.
+**Dataset**: The dataset contains 1.3M rows of data with 33 columns providing various information about the country, region, the loan amount, the loan status, and the dates at which the loan was sanctioned, approved, repaid, etc. More information on each column can be found on the jupyter notebook. The dataset can be found here: https://finances.worldbank.org/Loans-and-Credits/IBRD-Statement-Of-Loans-Historical-Data/zucq-nrc3/about_data
 
 **Data Preprocessing**: The stage involved handling missing data, converting the values into appropriate types, using encoding to categorize the "loan status" column for the machine learning algorithm, and calculating two new columns "Loan Duration" and "Remaining Principal" to analyze how long a country takes to repay its loans. 
 
